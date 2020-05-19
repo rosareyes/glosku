@@ -3,6 +3,10 @@ body {
   background-color: #fbfbfb;
 }
 
+#first-section {
+
+}
+
 /* Nav bar */
 
 #main-nav {
@@ -35,7 +39,7 @@ body {
     padding: 0 15rem;
   }
   #first-section {
-    padding: 10% 0 8% 0;
+    padding: 7% 0 6% 0;
   }
 
   #third-section .subtitle {
@@ -71,6 +75,15 @@ body {
   #first-section .col-md-6:first-child {
     padding: 0 3rem;
   }
+  #first-section .first-section__title {
+    padding: 0 10%;
+  }
+  .logistics {
+    margin-top: 5rem;
+  }
+  .footer {
+    padding-top: 7%;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -80,7 +93,8 @@ body {
   }
 
   #third-section {
-    padding: 0;
+    padding: 2rem;
+    margin: 0 5%;
   }
 
   #third-section .subtitle {
@@ -107,8 +121,8 @@ body {
   #fourth-section {
     text-align: center;
     padding: 0;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   #fourth-section h2 {
@@ -128,13 +142,17 @@ body {
   .footer .demo h2 {
     font-size: 2.5rem;
   }
-  .footer .demo h3 {
-    font-size: 1.88rem;
-  }
+
   #first-section {
     padding: 20% 0 0 0;
   }
-  
+  .logistics {
+    margin-top: 2rem;
+  }
+  .footer {
+    padding-top: 10%;
+  }
+
 }
 
 /* Media queries */
@@ -146,7 +164,6 @@ body {
 }
 
 .logistics {
-  margin-top: 5rem;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -164,6 +181,7 @@ body {
   color: #999;
   line-height: 1.5;
   margin-bottom: 1.5rem;
+
 }
 
 
@@ -172,8 +190,10 @@ body {
   background:  -webkit-linear-gradient(-60deg, rgb(121, 175, 212) 1%, rgb(67, 198, 185) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.4;
+  margin-bottom: 5%;
+
 }
 
 #first-section input::placeholder {
@@ -309,7 +329,6 @@ body {
 
 .footer {
   color: #fff;
-  padding-top: 7%;
 }
 
 .footer .demo {
@@ -326,7 +345,6 @@ body {
 .demo h3 {
   line-height: 1.5;
   text-align: center;
-  font-weight: 600;
   margin-bottom: 5%;
 }
 
