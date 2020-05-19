@@ -3,9 +3,6 @@ body {
   background-color: #fbfbfb;
 }
 
-#first-section {
-
-}
 
 /* Nav bar */
 
@@ -38,8 +35,8 @@ body {
     font-size: 3rem;
     padding: 0 15rem;
   }
-  #first-section {
-    padding: 7% 0 6% 0;
+  .first-section-page {
+    padding: 9% 0 8% 0;
   }
 
   #third-section .subtitle {
@@ -75,15 +72,36 @@ body {
   #first-section .col-md-6:first-child {
     padding: 0 3rem;
   }
-  #first-section .first-section__title {
-    padding: 0 10%;
-  }
+
   .logistics {
     margin-top: 5rem;
   }
   .footer {
     padding-top: 7%;
   }
+  #first-section-page__solutions .col-9 {
+    padding-right: 5rem;
+  }
+  .first-section-page__grid .row {
+    margin-bottom: 3rem;
+  }
+  #first-section-page__solutions {
+    padding: 9% 0 3% 0;
+  }
+  .first-section-page__grid .col-md-4 {
+    padding: 0 2.5rem;
+  }
+
+  #first-section-page__solutions .row {
+    padding: 0 2rem;
+  }
+  .first-section-page__aboutus {
+  height: 778px;
+}
+.second-section-page__goals {
+  padding: 0 30% 7%;
+}
+
 }
 
 @media screen and (max-width: 990px) {
@@ -133,7 +151,7 @@ body {
     height: 70%;
   }
 
-  #first-section {
+.first-section-page {
     padding-top: 1rem;
   }
   #first-section h1 {
@@ -143,7 +161,7 @@ body {
     font-size: 2.5rem;
   }
 
-  #first-section {
+.first-section-page {
     padding: 20% 0 0 0;
   }
   .logistics {
@@ -152,10 +170,40 @@ body {
   .footer {
     padding-top: 10%;
   }
+  #first-section-page__solutions {
+    padding: srem 0;
+    margin-top: 3rem;
+  }
+  #first-section-page__solutions .col-md-5 img {
+    padding-top: 2rem;
+    width: 70%;
+  }
+    #first-section-page__solutions .col-md-5 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .flex-container {
+      display: flex; flex-flow: column;
+    }
+    .flex-container__item {
+    order: 2;
+    }
+    .flex-container__image {
+    order: 1;
+    }
+    .first-section-page__aboutus {
+    height: 100%;
+    padding-bottom: 30%;
+  }
 
 }
 
 /* Media queries */
+
+.first-section-page__grid {
+  margin-top: 10%;
+}
 
 
 .form-control:focus {
@@ -178,10 +226,20 @@ body {
 /* First section */
 #first-section .first-section__paragraph {
   text-align: justify;
-  color: #999;
+  color: rgba(0, 0, 0, 0.4);
   line-height: 1.5;
   margin-bottom: 1.5rem;
 
+}
+
+#first-section {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),url('../images/bg-fs.png');
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -192,9 +250,9 @@ body {
   -webkit-text-fill-color: transparent;
   font-weight: 900;
   line-height: 1.4;
-  margin-bottom: 5%;
 
 }
+
 
 #first-section input::placeholder {
   color: #999;
@@ -421,3 +479,189 @@ body {
 
 
 /* buttons */
+
+#first-section-page__solutions h1 {
+  font-weight: 900;
+font-family: 'Roboto', sans-serif;
+color: #2758a1;
+text-align: center;
+margin-bottom: 13px;
+}
+#first-section-page__solutions {
+
+  background-image: -webkit-linear-gradient( -90deg, rgb(121,175,212) 1%, rgb(67,198,185) 100%);
+  color: #fff;
+}
+
+#first-section-page__solutions h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+text-align: center;
+margin-bottom: 5rem;
+}
+
+#first-section-page__solutions h4 {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: normal;
+}
+
+#first-section-page__solutions .col-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.first-section-page__grid .col-md-4 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.first-section-page__grid .col-md-4 p {
+  text-align: justify;
+}
+
+
+.first-section-page__grid img {
+  margin-bottom: 2rem;
+}
+
+.second-section-page__chart {
+  background-color: #fff;
+    background-image: url(../images/bg3.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+    padding-top: 5rem;
+    padding-bottom:  4rem;
+    text-align: center;
+}
+
+.second-section-page__chart .chart__item:nth-child(1) i {
+    background-color: #64d0ea;
+}
+.second-section-page__chart .chart__item:nth-child(2) i {
+    background-color: #58d29a;
+}
+.second-section-page__chart .chart__item:nth-child(3) i {
+    background-color: #f67866;
+}
+.second-section-page__chart .chart__item:nth-child(4) i {
+    background-color: #f8db5c;
+}
+
+.second-section-page__chart i {
+  width: 27px;
+    height: 27px;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.second-section-page__chart h2 {
+  color: #78b0d3;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second-section-page__chart .num {
+  font-size: 1.88rem;
+  text-align: center;
+}
+
+.chart__item {
+  color: #666;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.chart__item .col-4 {
+
+padding: 0;
+}
+
+.first-section-page__aboutus {
+background-image: url(../images/bg8.png);
+background-repeat: no-repeat;
+color: #fff;
+background-size: cover;
+background-position: 0px 0px;
+background-color: #fff;
+
+
+}
+
+.first-section-page__aboutus .aboutus__header {
+  padding-top: 18%;
+}
+
+.second-section-page__goals {
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.second-section-page__goals h2 {
+      font-weight: 600;
+      color: #78b0d3;
+      margin-bottom: 2rem;
+}
+
+
+.second-section-page__goals p {
+  text-align: justify;
+  color: #999;
+  line-height: 2;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.first-section-page__aboutus h1 {
+  font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    line-height: normal;
+    word-break: break-word;
+    font-size: 3rem;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #999;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #999;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+.third-section-page__questions {
+  padding: 5% 0;
+}
+
+.third-section-page__questions h2 {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 900;
+  color: #78b0d3;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
