@@ -205,6 +205,7 @@ background-color: #fff;
     order: 1;
     }
     .first-section-page__aboutus {
+      padding-top: 10%;
       text-align: center;
     padding-bottom: 10%;
   }
