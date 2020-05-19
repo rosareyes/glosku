@@ -5,7 +5,7 @@ body {
 
 /* Nav bar */
 
-#mainNav {
+#main-nav {
   background: #fff;
   box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.14);
 }
@@ -19,31 +19,7 @@ body {
 }
 
 
-#home_header p {
-  text-align: justify;
-  color: #999;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-}
-
-
-
-#home_header h1 {
-  font-family: 'Roboto', sans-serif;
-  background: linear-gradient(-60deg, rgb(121, 175, 212) 1%, rgb(67, 198, 185) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
-  line-height: 1.4;
-  font-size: 2.5rem;
-}
 /* Media queries */
-@media (min-width: 992px) {
-  #mainNav {
-    padding: 1rem 0;
-  }
-}
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1315px;
@@ -51,11 +27,14 @@ body {
 }
 
 @media screen and (min-width: 992px) {
+  #main-nav {
+    padding: 1rem 0;
+  }
   #third-section h2 {
     font-size: 3rem;
     padding: 0 15rem;
   }
-  #home_header {
+  #first-section {
     padding: 10% 0 8% 0;
   }
 
@@ -88,6 +67,9 @@ body {
   }
   .footer .demo h2 {
     font-size: 4rem;
+  }
+  #first-section .col-md-6:first-child {
+    padding: 0 3rem;
   }
 }
 
@@ -137,10 +119,10 @@ body {
     height: 70%;
   }
 
-  #home_header {
+  #first-section {
     padding-top: 1rem;
   }
-  #home_header h1 {
+  #first-section h1 {
     text-align: center;
   }
   .footer .demo h2 {
@@ -149,8 +131,11 @@ body {
   .footer .demo h3 {
     font-size: 1.88rem;
   }
-  #home_header {
+  #first-section {
     padding: 20% 0 0 0;
+  }
+  #first-section .col-md-6:first-child {
+    padding: 0;
   }
 }
 
@@ -175,15 +160,30 @@ body {
 }
 
 
-
-
 /* First section */
-#home_header input::placeholder {
+#first-section .first-section__paragraph {
+  text-align: justify;
+  color: #999;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+
+#first-section .first-section__title {
+  font-family: 'Roboto', sans-serif;
+  background:  -webkit-linear-gradient(-60deg, rgb(121, 175, 212) 1%, rgb(67, 198, 185) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+#first-section input::placeholder {
   color: #999;
   opacity: 0.5;
 }
 
-#home_header input {
+#first-section input {
   border-radius: 10px 0px 0px 10px;
   border: 1px solid #e1e1e1;
   background-color: #fff;
@@ -289,9 +289,7 @@ body {
   color: #f5f5f5;
 }
 
-#fourth-section .col-md-6:first-child {
-  padding-right: 10%;
-}
+
 
 #fourth-section .full-img {
   padding-right: 0;
