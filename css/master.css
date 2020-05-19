@@ -704,16 +704,26 @@ body {
 
 .contact_header {
   border-radius: 0;
+  background-image: url('../images/contact-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image:
+    -webkit-linear-gradient( -90deg, rgba(121,175,212,0.749) 1%, rgba(67,198,185,0.749) 100%),
+    url('../images/contact-bg.jpg');
+    color: white;
 }
 
 .contact_header h1 {
   color: #fff;
-  font-weight: 600;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5rem;
 }
 
 .contact_header p {
   color: #fff;
-  font-size: 18px;
+  font-size: 2rem;
 }
 
 .contact_form_wrapper {
@@ -722,7 +732,7 @@ body {
 
 .contact_form {
   background: #fff;
-  border-radius: 4px;
+  border-radius: 1rem;
   box-shadow: rgba(42, 45, 54, .075) 0 12px 34px, rgba(0, 0, 0, .05) 0 6px 15px, inset transparent 0 0 0 0;
   margin: 0 auto 0 auto;
   max-width: 850px;
@@ -730,6 +740,7 @@ body {
 }
 
 .contact_form .form-control {
+  border-radius: 1rem;
   border-color: #dcdcdc;
   color: #777;
   padding: 8px;
