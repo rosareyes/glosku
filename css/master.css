@@ -134,9 +134,7 @@ body {
   #first-section {
     padding: 20% 0 0 0;
   }
-  #first-section .col-md-6:first-child {
-    padding: 0;
-  }
+  
 }
 
 /* Media queries */
