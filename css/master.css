@@ -54,15 +54,16 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-  #third-section h1 {
+  #third-section h2 {
     padding: 0 15rem;
+    font-size: 2rem;
   }
 
   #third-section .subtitle {
     padding: 0 17rem;
   }
 
-  #second-section h1 {
+  #second-section h2 {
     font-size: 4rem;
   }
 
@@ -78,7 +79,7 @@ body {
     padding: 5% 0 7% 15%;
   }
 
-  #fourth-section h1 {
+  #fourth-section h2 {
     text-align: left;
   }
   .third-img {
@@ -88,7 +89,7 @@ body {
 }
 
 @media screen and (max-width: 990px) {
-  #third-section h1 {
+  #third-section h2 {
     padding: 0;
   }
 
@@ -96,7 +97,7 @@ body {
     padding: 0;
   }
 
-  #second-section h1 {
+  #second-section h2 {
     font-size: 2.5rem;
   }
 
@@ -120,12 +121,19 @@ body {
     padding-bottom: 1.5rem;
   }
 
-  #fourth-section h1 {
+  #fourth-section h2 {
     text-align: center;
   }
   .third-img {
     width: 70%;
     height: 70%;
+  }
+
+  #home_header {
+    padding-top: 1rem;
+  }
+  #home_header h1 {
+    text-align: center;
   }
 }
 
@@ -168,7 +176,7 @@ body {
 
 
 /* Second section */
-#second-section h1 {
+#second-section h2 {
   text-align: justify;
   text-align: center;
   margin-bottom: 2.6rem;
@@ -195,7 +203,7 @@ body {
 /* Second section */
 
 /* Third section */
-#third-section h1 {
+#third-section h2 {
   text-align: center;
   font-size: 3rem;
   font-weight: 900;
@@ -272,7 +280,7 @@ body {
   padding-right: 0;
 }
 
-#fourth-section h1 {
+#fourth-section h2 {
   font-size: 2.3rem;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -295,7 +303,7 @@ body {
   text-align: center;
 }
 
-.footer .demo h1 {
+.footer .demo h2 {
   font-size: 4rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
