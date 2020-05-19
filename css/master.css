@@ -260,10 +260,10 @@ body {
 }
 
 #first-section input {
-  border-radius: 10px 0px 0px 10px;
+
   border: 1px solid #e1e1e1;
   background-color: #fff;
-  border-right: none;
+
 }
 /* First section */
 
@@ -474,7 +474,6 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
-  border-radius: 0px 10px 10px 0px;
 }
 
 
