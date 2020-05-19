@@ -102,6 +102,11 @@ body {
   padding: 0 30% 7%;
 }
 
+.first-section-page__aboutus h1 {
+  font-weight: 900;
+    font-size: 3rem;
+}
+
 }
 
 @media screen and (max-width: 990px) {
@@ -195,6 +200,13 @@ body {
     .first-section-page__aboutus {
     height: 100%;
     padding-bottom: 30%;
+  }
+  .first-section-page__aboutus h1 {
+    font-weight: 700;
+      font-size: 2rem;
+  }
+  .aboutus__header h3 {
+    font-size: 1rem;
   }
 
 }
@@ -616,11 +628,9 @@ background-color: #fff;
 }
 
 .first-section-page__aboutus h1 {
-  font-weight: 900;
     font-family: 'Roboto', sans-serif;
     line-height: normal;
     word-break: break-word;
-    font-size: 3rem;
 }
 
 .accordion-section .panel-default > .panel-heading {
