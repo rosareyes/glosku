@@ -990,3 +990,7 @@ border-radius: 10px 0 0 10px;
   margin-left: 1rem;
 
 }
+
+.navbar-collapse {
+  text-align: center;
+}
