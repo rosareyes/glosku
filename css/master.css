@@ -38,6 +38,10 @@ body {
     padding: 9% 0 8% 0;
   }
 
+  .first-section-page__blog {
+    padding: 9% 0 4% 0;
+  }
+
   #third-section .subtitle {
     padding: 0 17rem;
   }
@@ -201,6 +205,9 @@ body {
   }
 
   .first-section-page {
+    padding-top: 1rem;
+  }
+  .first-section-page__blog {
     padding-top: 1rem;
   }
 
@@ -903,4 +910,80 @@ body {
   font-weight: 600;
   font-size: 2.5rem;
   margin-bottom: 2rem;
+}
+
+.blog__newsletter {
+  padding: 5rem 4rem 1rem;
+  text-align: center;
+  color: white;
+}
+
+.newsletter__title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.newsletter__subtitle {
+  margin-bottom: 3rem;
+}
+
+.blog__newsletter .input-group .form-control {
+border-radius: 0 10px 10px 0;
+font-size: 1rem;
+line-height: 5;
+}
+
+.blog__newsletter .input-group .input-group-text {
+border-radius: 10px 0 0 10px;
+}
+
+.btn-light {
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #6B6B6B;
+}
+
+.first-section-page__blog .card-subtitle {
+  font-weight: bold;
+}
+
+.first-section-page__blog .card-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.first-section-page__blog  .card-body {
+ padding-left: 2rem;
+ padding-right: 2rem;
+ padding-bottom: 3rem;
+}
+
+.blog__tag-cloud {
+  margin: 5rem 0 0 3rem;
+  text-align: center;
+}
+
+.btn-outline-dark {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.blog__tag-cloud  a.collapsed:after {
+  content: "\f107";
+}
+
+
+.blog__tag-cloud  a:after{
+  font-family: 'FontAwesome';
+  font-weight: bold;
+  font-size: 2.5rem;
+  content: "\f106";
+  color: black;
+  display: inline-block;
+  margin-left: 1rem;
+
 }
