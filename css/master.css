@@ -35,7 +35,7 @@ body {
   }
 
   .first-section-page {
-    padding: 9% 0 8% 0;
+    padding: 5% 0 8% 0;
   }
 
   .first-section-page__blog {
@@ -157,6 +157,10 @@ body {
   .blog__newsletter {
     padding: 5rem 4rem 1rem;
   }
+
+  .first-section-page__demo .demo__form {
+    	width: 400px;
+  	}
 }
 
 @media screen and (max-width: 990px) {
@@ -316,6 +320,9 @@ body {
   .blog__newsletter {
     padding: 2rem 2rem;
   }
+  .first-section-page__demo .demo__form {
+    	width: 100%;
+  	}
 }
 
 /* Media queries */
@@ -993,4 +1000,214 @@ border-radius: 10px 0 0 10px;
 
 .navbar-collapse {
   text-align: center;
+}
+
+
+
+.first-section-page__demo .demo__form {
+  color: #000;
+		margin: 0 auto;
+	}
+	.first-section-page__demo .demo__form h2 {
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+		color: #43c6b9;
+        margin: 0 0 15px;
+		text-align: center;
+    }
+    .demo__form .lead {
+        font-size: 14px;
+		margin-bottom: 30px;
+		text-align: center;
+    color: #636363;
+	}
+    .demo__form form {
+		border-radius: 1px;
+    	margin-bottom: 15px;
+        background: #fff;
+		border: 1px solid #f3f3f3;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+	.demo__form .form-group {
+		margin-bottom: 20px;
+	}
+	.demo__form label {
+		font-weight: normal;
+		font-size: 13px;
+	}
+	.demo__form .form-control {
+		min-height: 38px;
+		box-shadow: none !important;
+		border-width: 0 0 1px 0;
+	}
+	.demo__form .input-group-addon {
+		max-width: 42px;
+		text-align: center;
+		background: none;
+		border-width: 0 0 1px 0;
+		padding-left: 5px;
+	}
+    .demo__form .btn {
+        font-size: 16px;
+        font-weight: bold;
+		background: #43c6b9;
+        border-radius: 10px;
+		border: none;
+		min-width: 140px;
+        outline: none !important;
+    }
+	.demo__form .btn:hover, .demo__form .btn:focus {
+		background: #179b81;
+	}
+	.demo__form a {
+		color: #19aa8d;
+		text-decoration: none;
+	}
+	.demo__form a:hover {
+		text-decoration: underline;
+	}
+	.demo__form .fa {
+		font-size: 21px;
+	}
+	.demo__form .fa-paper-plane {
+		font-size: 17px;
+	}
+	.demo__form .fa-check {
+		color: #fff;
+		left: 9px;
+		top: 18px;
+		font-size: 7px;
+		position: absolute;
+	}
+
+.first-section-page__demo {
+  color: #fff;
+}
+
+
+.first-section-page__demo h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.first-section-page__demo h3 {
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.first-section-page__demo .col-sm-4 {
+  padding: 1rem;
+}
+
+.first-section-page__demo .col-sm-4 h5 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+.first-section-page__login {
+  height: 100%;
+}
+
+
+.first-section-page__login .login__form {
+  color: #000;
+	margin: 0 auto;
+  padding-top: 20%;
+	}
+.first-section-page__login .login__form h2 {
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+		color: #43c6b9;
+        margin: 0 0 15px;
+		text-align: center;
+    }
+    .login__form .lead {
+        font-size: 14px;
+		margin-bottom: 30px;
+		text-align: center;
+    color: #636363;
+	}
+    .login__form form {
+
+    	margin-bottom: 15px;
+
+        padding: 30px;
+    }
+.login__form .form-group {
+		margin-bottom: 20px;
+	}
+	.login__form label {
+		font-weight: normal;
+		font-size: 13px;
+	}
+	.login__form .form-control {
+		min-height: 38px;
+		box-shadow: none !important;
+		border-width: 0 0 1px 0;
+	}
+	.login__form .input-group-addon {
+		max-width: 42px;
+		text-align: center;
+		background: none;
+		border-width: 0 0 1px 0;
+		padding-left: 5px;
+	}
+    .login__form .btn {
+        font-size: 16px;
+        font-weight: bold;
+		background: #43c6b9;
+        border-radius: 10px;
+		border: none;
+		min-width: 140px;
+        outline: none !important;
+    }
+	.login__form .btn:hover, .demo__form .btn:focus {
+		background: #179b81;
+	}
+.login__form a {
+		color: #19aa8d;
+    font-size: .8rem;
+    text-decoration: underline;
+
+	}
+	.login__form a:hover {
+		text-decoration: underline;
+	}
+.login__form .fa {
+		font-size: 21px;
+	}
+.login__form .fa-paper-plane {
+		font-size: 17px;
+	}
+	.login__form .fa-check {
+		color: #fff;
+		left: 9px;
+		top: 18px;
+		font-size: 7px;
+		position: absolute;
+	}
+
+  body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+.login__image {
+  background-image: url(../images/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 0px;
+}
+
+html,body {
+  height: 100%;
 }
