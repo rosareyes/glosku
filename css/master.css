@@ -123,10 +123,25 @@ body {
     background-position: 0px 0px;
     background-color: #fff;
   }
+
   .contact_header {
     border-radius: 0;
     padding: 200px 40px 200px 40px;
   }
+  .first-section-page__resources h1 {
+    font-weight: 700;
+    font-size: 5rem;
+  }
+
+  .first-section-page__resources h5 {
+    margin-top: 2rem;
+    padding: 0 25%;
+  }
+  .resources__search .form-inline {
+    min-width: 50%;
+
+  }
+
 }
 
 @media screen and (max-width: 990px) {
@@ -251,6 +266,7 @@ body {
   .second-section-page__goals {
     margin-top: 4rem;
   }
+
   .contact_header {
     padding: 100px 40px 150px 40px;
   }
@@ -258,6 +274,21 @@ body {
   .contact_header h1 {
     font-size: 35px;
   }
+  .first-section-page__resources h1 {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .first-section-page__resources h5 {
+    margin-top: 1rem;
+    padding-bottom: 4rem;
+  }
+  .resources__search .form-inline {
+    min-width: 100%;
+
+  }
+
+
 }
 
 /* Media queries */
@@ -483,6 +514,7 @@ body {
   background-image: -ms-linear-gradient(-60deg, rgb(121, 175, 212) 1%, rgb(67, 198, 185) 100%);
   border-radius: 30px;
 }
+
 .btn-submit {
   padding: 10px 3rem;
 }
@@ -696,8 +728,6 @@ body {
   text-align: center;
 }
 
-
-
 .first-section-page__contact {
   padding-bottom: 10%;
 }
@@ -709,9 +739,9 @@ body {
   background-size: cover;
   background-position: center;
   background-image:
-    -webkit-linear-gradient( -90deg, rgba(121,175,212,0.749) 1%, rgba(67,198,185,0.749) 100%),
+    -webkit-linear-gradient(-90deg, rgba(121, 175, 212, 0.749) 1%, rgba(67, 198, 185, 0.749) 100%),
     url('../images/contact-bg.jpg');
-    color: white;
+  color: white;
 }
 
 .contact_header h1 {
@@ -779,4 +809,94 @@ body {
 .form-control::-ms-input-placeholder {
   color: #888;
   ;
+}
+
+.first-section-page__resources {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.first-section-page__resources h5 {
+  line-height: 1.5;
+}
+
+.resources__search {
+    display: flex;
+      margin-bottom: 3rem;
+}
+
+.resources__search .form-inline {
+  margin-right: 0;
+  margin-left: auto;
+  flex-shrink: 0;
+
+
+}
+
+
+
+
+.about-border {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #fff;
+  margin: 20px auto;
+}
+
+.first-section-page__resources {
+  color: #fff;
+}
+
+.second-section-page__resources {
+  padding: 3rem 0;
+}
+
+
+.resources__card .card-subtitle {
+  color: #68b6cb;
+  font-weight: bold;
+}
+
+.resources__card a {
+  text-decoration: none;
+  color: black;
+}
+
+.resources__card .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.resources__card a:hover .overlay {
+  opacity: 0.7;
+}
+
+.resources__card .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.second-section-page__resources h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
