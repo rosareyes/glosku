@@ -1,3 +1,34 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #fbfbfb;
@@ -161,6 +192,9 @@ body {
   .first-section-page__demo .demo__form {
     	width: 400px;
   	}
+    .first-section-page__demo h1 {
+      font-size: 3rem;
+    }
 }
 
 @media screen and (max-width: 990px) {
@@ -1087,7 +1121,6 @@ border-radius: 10px 0 0 10px;
 
 
 .first-section-page__demo h1 {
-  font-size: 3rem;
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 2rem;
