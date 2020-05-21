@@ -227,8 +227,9 @@ body {
   .second-section-page__goals p {
     line-height: 2;
   }
-
-
+  .first-section-page__blog-entry {
+    padding: 5% 0;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -268,9 +269,7 @@ body {
 
   .fourth-section-page__home {
     text-align: center;
-    padding: 0;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding: 2.5rem 0;
   }
 
   .fourth-section-page__home h2 {
@@ -405,6 +404,9 @@ body {
     line-height: normal;
   }
   .third-section-page__questions.accordion-section .panel-collapse { display: block;}
+  .first-section-page__blog-entry {
+    padding: 20% 0 5%;
+  }
 }
 
 
@@ -1002,6 +1004,36 @@ body {
 
 .navbar-collapse {
   text-align: center;
+}
+
+.first-section-page__blog-entry {
+  color: #fff;
+  text-align: center;
+}
+.first-section-page__blog-entry h1 {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 600;
+}
+.blog-entry__post {
+  margin: 5% 0;
+  text-align: justify;
+}
+
+.post__icons {
+  text-align: center;
+  color: #008CBA;
+  margin-bottom: 1.5rem;
+}
+
+.blog-entry__more-entries {
+  margin: 5% 0;
+}
+.blog-entry__more-entries h2 {
+  font-weight: 600;
+    color: #008CBA;
+    margin-bottom: 2rem;
+    text-align: center;
+
 }
 
 /* /Blog Page */
