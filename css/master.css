@@ -1291,7 +1291,7 @@ body {
 }
 
 .footer .page-footer li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer .page-footer {
@@ -1300,7 +1300,7 @@ body {
 
 .footer .page-footer h5 {
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 /* /Footer */
