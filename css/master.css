@@ -217,6 +217,13 @@ body {
   .first-section-page__demo h1 {
     font-size: 3rem;
   }
+  .first-section-page__download .demo__form {
+    width: 400px;
+  }
+
+  .first-section-page__download h1 {
+    font-size: 3rem;
+  }
   .second-section-page__goals p {
     line-height: 2;
   }
@@ -389,6 +396,9 @@ body {
   }
 
   .first-section-page__demo .demo__form {
+    width: 100%;
+  }
+  .first-section-page__download .demo__form {
     width: 100%;
   }
   .second-section-page__goals p {
@@ -998,12 +1008,12 @@ body {
 
 /* Request a Demo Page */
 
-.first-section-page__demo .demo__form {
+.demo__form {
   color: #000;
   margin: 0 auto;
 }
 
-.first-section-page__demo .demo__form h2 {
+.demo__form h2 {
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
   color: #43c6b9;
@@ -1217,6 +1227,36 @@ body {
   background-position: 0px 0px;
 }
 /* /Login Page */
+
+/* Download Resources page  */
+
+.first-section-page__download {
+  color: #fff;
+}
+
+.first-section-page__download h1 {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.first-section-page__download h3 {
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.first-section-page__download .col-sm-4 {
+  padding: 1rem;
+}
+
+.first-section-page__download .col-sm-4 h5 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* /Download Resources page  */
+
 
 /* Footer */
 .footer {
