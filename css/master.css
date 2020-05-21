@@ -1033,7 +1033,10 @@ body {
     color: #008CBA;
     margin-bottom: 2rem;
     text-align: center;
-
+}
+.post__icons a{
+  text-decoration: none;
+  color: inherit;
 }
 
 /* /Blog Page */
