@@ -217,6 +217,11 @@ body {
   .first-section-page__demo h1 {
     font-size: 3rem;
   }
+  .second-section-page__goals p {
+    line-height: 2;
+  }
+
+
 }
 
 @media screen and (max-width: 990px) {
@@ -386,7 +391,13 @@ body {
   .first-section-page__demo .demo__form {
     width: 100%;
   }
+  .second-section-page__goals p {
+    line-height: normal;
+  }
+  .third-section-page__questions.accordion-section .panel-collapse { display: block;}
 }
+
+
 
 /* Media queries */
 
@@ -690,7 +701,6 @@ body {
 .second-section-page__goals p {
   text-align: justify;
   color: #999;
-  line-height: 2;
   font-size: 1.1rem;
   margin-bottom: 2rem;
 }
@@ -705,6 +715,7 @@ body {
   border: 0;
   padding: 0;
 }
+
 
 .third-section-page__questions.accordion-section .panel-default .panel-title a {
   display: block;
