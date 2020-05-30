@@ -352,7 +352,7 @@ body {
     font-size: 1.2rem;
   }
 
-  .first-section-page__aboutus {
+  .first-section-page__aboutus {background
     background-image: -webkit-linear-gradient(-60deg, rgb(121, 175, 212) 1%, rgb(67, 198, 185) 100%);
   }
 
@@ -1262,6 +1262,49 @@ body {
   background-position: 0px 0px;
 }
 /* /Login Page */
+
+/* Forgot password Page */
+.forgot-password__image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 0px;
+  background-image:
+    -webkit-linear-gradient(-90deg, rgba(121, 175, 212, 0.749) 1%, rgba(67, 198, 185, 0.749) 100%),
+    url('../images/forgot_bg.jpg');
+}
+
+.forgot-password__footer {
+
+  color: #999;
+  font-size: 0.66rem;
+
+}
+/* /Forgot password Page */
+
+/* Register Page */
+
+.register-password__image__text {
+  color: #fff;
+  font-family: 'Roboto',sans-serif;
+  text-align: center;
+}
+
+.register-password__image__text h1 {
+  font-weight: 500;
+}
+.register-password__image__text h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.register-password__image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 0px;
+  background-image:
+    -webkit-linear-gradient(-90deg, rgba(121, 175, 212, 0.749) 1%, rgba(67, 198, 185, 0.749) 100%),
+    url('../images/bg2.png');
+}
+/* / Register Page */
 
 /* Download Resources page  */
 

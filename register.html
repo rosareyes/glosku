@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Register</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
+  <!-- Animations CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="icon" href="images/favicon2.ico" type="image/x-icon">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand mr-5" href="index.html"><img src="images/logo.svg" width="196px" height="26px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" href="solutions.html">Solutions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">Our Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resources.html">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link " href="login.html">Log in</a></li>
+          <li class="nav-item"><a href="get_started_now.html" class="btn btn-primary ">Get Started Now</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="first-section-page__login">
+    <div class="container-fluid h-100">
+      <div class="row h-100">
+        <div class="col-lg-8 register-password__image d-none d-sm-none d-md-flex justify-content-center align-items-center">
+          <div class="register-password__image__text">
+          <h1 class="display-3 px-5">Get your products in customers' hands faster.</h1>
+           <h4>We store your items securely, then pick, pack and ship your orders on the same day.</h4>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="login__form">
+            <form action="" method="post">
+              <h2>Getting Started</h2>
+              <p class="lead">We're looking forward to showing you around and getting to know you better.</p>
+              <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                  <input type="text" class="form-control" name="full_name" placeholder="Full Name" required="required">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fas fa-envelope"></i></span>
+                  <input type="email" class="form-control" name="email" placeholder="Business Email Address" required="required">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fas fa-globe"></i></span>
+                  <input type="url" class="form-control" name="company_url" placeholder="Company Website" required="required">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fas fa-briefcase"></i></span>
+                  <input type="text" class="form-control" name="company_name" placeholder="Company Name" required="required">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fas fa-key"></i></span>
+                  <input type="email" class="form-control" name="password" placeholder="Password" required="required">
+                </div>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
+                <label class="form-check-label" for="defaultCheck">
+                  By creating your account, you are agreeing to our <a data-toggle="modal" data-target="#termsAndConditions" href="">terms & conditions</a>
+                </label>
+              </div>
+              <div class="form-group">
+                <button type="submit" name="forgot_password" class="btn btn-primary btn-block btn-lg">Create Account</button>  
+                <div class="text-center mt-2">
+                    <span class="forgot-password__footer ">Already have an account? <a class="login__form__forgotpass" href="login.html">Login now</a></span>
+                   </div>             
+              </div>
+          </div>
+          </form>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+<!-- Modal for terms and conditions !important -->
+<div class="modal fade" id="termsAndConditions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Terms of Service</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p><strong>1. Acceptance of Terms of Service</strong> </p>
+<p> <strong>1.1.</strong> If you are entering into these Terms of Service on behalf of a company, business or other legal entity, you represent that you have the authority
+   to bind such entity and its affiliates to these Terms of Service, in which case the Terms of Service “you“ or “your“ shall 
+   refer to such entity and its affiliates. If you do not have such authority,
+    or if you do not agree with these Terms of Service, you shall not accept the Terms 
+    of Service on behalf of such entity and you are not authorized to use this Website or the Services.</p> 
+
+    <p><strong>1.2. </strong> By registering for the Services, you agree to provide and maintain true, accurate, current and complete information about yourself 
+      as prompted by the Services’ registration form. Our collection and processing of registration data and certain other information 
+      about you are governed by our Privacy Policy.</p> 
+
+      <p><strong>1.3. </strong> You acknowledge and agree that we may change or otherwise modify the Terms of Service in the future, such changes and modifications
+ shall become effective immediately upon posting to the Website. You understand and agree that your continued access or use 
+ of this Website after such change or modification constitutes your acceptance of the changed or modified Terms of Service. 
+ Easyship endeavors to provide you with notice of any meaningful changes to the Terms of Service either through email or notification within 
+ the Glosku platform, but Glosku's failure to do so shall not excuse your obligation to comply with any such modified Terms of Service. 
+ You agree to periodically review the most current version of these Terms of Service as posted on the Website.</p> 
+
+ <p><strong>1.4.</strong> You agree and acknowledge that you may be subject to additional terms applicable to certain Services provided by us that may be 
+   attached to such Services from time to time. All such terms are hereby incorporated by reference into these Terms of Service.</p>
+
+   <p><strong>1.5.</strong> In the event that you commit any breach or violation of any terms and conditions under our Terms of Service, we shall be entitled to
+      immediately terminate our Services, suspend your Easyship Account, and/or may take other legal action at our disposal.</p>
+
+      <p><strong>1.6.</strong> The usage of any services not provided by us directly (including, without limitation, warehousing services) requires you to enter into 
+a separate legally binding service agreement with a third-party service provider. You acknowledge and agree that we do not assume any liability 
+whatsoever for acts, errors, or omissions (including, without limitation, any negligence or willful misconduct) of any third-party service 
+providers with whom you or any of your affiliates may contract, regardless of the purpose.</p>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- IMPORTANT! animations  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- IMPORTANT! animations  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
