@@ -1281,8 +1281,6 @@ body {
 
 /* Register Page */
 
-
-
 .register-password__image__text {
   color: #fff;
   font-family: 'Roboto',sans-serif;
@@ -1290,7 +1288,8 @@ body {
 }
 
 .register-password__image__text h1 {
-  font-weight: 500;
+  font-weight: bold;
+
 }
 .register-password__image__text h4 {
   font-family: 'Open Sans', sans-serif;
