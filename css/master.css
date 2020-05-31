@@ -1300,7 +1300,7 @@ body {
   background-size: cover;
   background-position: 0px 0px;
   background-image:
-    -webkit-linear-gradient(-90deg, rgba(121, 175, 212, 0.749) 1%, rgba(67, 198, 185, 0.749) 100%),
+    -webkit-linear-gradient(-90deg, rgba(121, 175, 212, 0.5) 1%, rgba(67, 198, 185, 0.5) 100%),
     url('../images/bg2.png');
 }
 /* / Register Page */
