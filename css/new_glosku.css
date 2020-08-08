@@ -13,11 +13,11 @@
   }
   
   .login-form form {
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 15px;
     box-shadow: 0px 10px 16px rgba(79, 79, 79, 0.1);
     border-radius: 18px;
-    padding: 4rem 4.2rem 4rem;
+    padding: 1rem 4.2rem 4rem;
     background: #FFFFFF;
     border: 1px solid #F4F4F4;
   }
@@ -64,7 +64,7 @@
     line-height: 1.4;
   }
   
-  .first-section-page__notification .fa-exclamation-circle {
+  .first-section-page__notification i {
       font-size: 4rem;
       margin-bottom: 1rem;
       color: #68b6cb;
@@ -73,8 +73,8 @@
 
 @media (max-width: 768px) {
     .login-form form {
-      padding: 4rem 1rem 5rem;
-      margin-top: 20%;
+      padding: 1rem 1rem 5rem;
+      margin-top: 10%;
     }
     .first-section-page__notification {
         margin-top: 20%;
