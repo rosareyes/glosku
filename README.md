@@ -38,6 +38,8 @@ The mockup is crafted to showcase the platform's capabilities and provide stakeh
 ## Repository
 Access the full source code on GitHub: [glosku-Mockup](https://github.com/rosareyes/glosku/)
 
-## Contact
 
-Rosa Reyes: [LinkedIn](https://www.linkedin.com/in/rosaareyesc/)
+## Contact
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rosaareyesc/)
+[![Upwork](https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white)](https://www.upwork.com/freelancers/~01bcf3b51bb38b47a8)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rosareyes)
