@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://brooklyn-burger-web.vercel.app/">
+  <a href="https://glosku-project.netlify.app/">
     <img src='https://github.com/rosareyes/glosku/assets/63470281/08b3bb9a-4157-4b60-9616-50cb986c1f45' height='400px'>
     <h1 align="center">Glosku landing page</h1>
   </a>
